@@ -1,6 +1,6 @@
 ## dot files
 
-Linux와 OS X 용 닷파일. Windows 용은 [dotfiles-windows](https://github.com/lesstif/dotfiles-windows) 참고
+Linux와 OS X 용 닷파일. Windows 용은 [dotfiles-windows](https://github.com/tohacker2000/dotfiles-windows) 참고
 
 ## 사전 준비
 
@@ -28,7 +28,7 @@ ansible --version
 1. ansible playbook 저장소 복제
 
     ```sh
-    git clone https://github.com/lesstif/ansible-playbooks.git
+    git clone https://github.com/tohacker2000/ansible-playbooks.git
     cd ansible-playbooks
     ```
 
@@ -43,7 +43,7 @@ ansible --version
 1. 저장소 복제
 
     ```sh
-    git clone https://github.com/lesstif/dotfiles.git && cd dotfiles
+    git clone https://github.com/tohacker2000/dotfiles.git && cd dotfiles
     ```
 
 1. dotfiles 설치
