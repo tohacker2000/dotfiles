@@ -26,7 +26,7 @@ if [ $uninst -eq 1 ];then
 elif [ ! -d "$HOME/dotfiles" ] || [ $force ]; then
     echo "Installing dotfiles for the first time"
     if [ ! -d "$HOME/dotfiles" ];then
-        git clone https://github.com/lesstif/dotfiles "$HOME/dotfiles"
+        git clone https://github.com/tohacker2000/dotfiles "$HOME/dotfiles"
     fi
 
     cd "$HOME/dotfiles"
